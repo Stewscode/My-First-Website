@@ -1,6 +1,6 @@
 body {
   background: #AD2E24;
-  width: 1200px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -13,7 +13,7 @@ header h1 {
   float: left;
 }
 
-h1, li, h2 {
+h1, li, h2, h3 {
   font-family:  'Exo 2', sans-serif;
 }
 
@@ -47,24 +47,32 @@ nav li a {
 
 nav li a:hover {
   background-color: #C75146;
+  color: black;
 }
 
 #mainContent {
   background-color: #EA8C55;
-  width: 70%;
+  width: 50%;
   float: left;
-  height: 300px;
+  min-height: 300px;
 }
 
 #sideContent {
   background-color: #E86C33;
-  width: 30%;
+  width: 50%;
   float: right;
-  height: 300px;
+  min-height: 300px;
+}
+
+#extraContent {
+  background-color: #EA8C55;
+  max-width: 100%;
+  min-height: 500px;
 }
 
 .contentBox {
   padding: 0 25px 0 25px;
+  max-width: 100%;
 }
 
 #footer1 {
